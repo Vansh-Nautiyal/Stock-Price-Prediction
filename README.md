@@ -1,4 +1,4 @@
-\# 📈 Stock Price Prediction using LSTM
+\📈 Stock Price Prediction using LSTM
 
 
 
@@ -16,7 +16,7 @@ The model is intentionally kept \*\*simple and beginner-friendly\*\*, using \*\*
 
 
 
-\## 🚀 Project Features
+\ 🚀 Project Features
 
 
 
