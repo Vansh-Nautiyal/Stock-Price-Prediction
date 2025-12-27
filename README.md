@@ -1,36 +1,14 @@
-\📈 Stock Price Prediction using LSTM
+# Stock Price Prediction using LSTM
 
 
 
-This project implements a \*\*Long Short-Term Memory (LSTM)\*\* neural network to predict future stock prices based on historical data.  
+This project implements a **Long Short-Term Memory (LSTM)** neural network to predict future stock prices based on historical data.  
 
-The model is intentionally kept \*\*simple and beginner-friendly\*\*, using \*\*only the closing price\*\* for training and prediction.
-
-
-
-> ⚠️ This project is for \*\*educational purposes only\*\* and should not be used for real financial trading.
+The model is intentionally kept simple and beginner-friendly, using only the **closing price** for training and prediction.
 
 
 
----
-
-
-
-\ 🚀 Project Features
-
-
-
-\- 📊 Fetches real-time historical stock data using \*\*Yahoo Finance\*\*
-
-\- 🧠 LSTM-based deep learning model
-
-\- 🔁 Recursive multi-day future prediction
-
-\- 📉 Visualizes actual vs predicted prices
-
-\- 🖥️ Interactive \*\*Streamlit\*\* web interface
-
-\- 🧪 Beginner-friendly ML project structure
+### This project is for educational purposes only and should not be used for real financial trading.
 
 
 
@@ -38,27 +16,21 @@ The model is intentionally kept \*\*simple and beginner-friendly\*\*, using \*\*
 
 
 
-\## 🧠 Model Architecture
+## 🚀  Project Features
 
 
 
-\- Input: Previous \*\*60 days\*\* of closing prices
+- 📊 Fetches real-time historical stock data using \*\*Yahoo Finance\*\*
 
-\- Layers:
+- 🧠 LSTM-based deep learning model
 
-&nbsp; - LSTM (64 units, return sequences)
+- 🔁 Recursive multi-day future prediction
 
-&nbsp; - Dropout (0.2)
+- 📉 Visualizes actual vs predicted prices
 
-&nbsp; - LSTM (32 units)
+- 🖥️ Interactive \*\*Streamlit\*\* web interface
 
-&nbsp; - Dropout (0.2)
-
-&nbsp; - Dense (1 output)
-
-\- Optimizer: \*\*Adam\*\*
-
-\- Loss Function: \*\*Mean Squared Error (MSE)\*\*
+- 🧪 Beginner-friendly ML project structure
 
 
 
@@ -66,17 +38,25 @@ The model is intentionally kept \*\*simple and beginner-friendly\*\*, using \*\*
 
 
 
-\## 📊 Dataset
+## 🧠 Model Architecture
 
 
 
-\- Source: `yfinance`
+- Input: Previous **60 days** of closing prices
 
-\- Feature used: \*\*Close price only\*\*
+- Layers:
 
-\- Date range: User selectable
+  - LSTM (64 units, return sequences)
+  - Dropout (0.2)
 
-\- Stock symbol: User selectable
+  - LSTM (32 units)
+  - Dropout (0.2)
+
+  - Dense (1 output)
+
+- Optimizer: **Adam**
+
+- Loss Function: **Mean Squared Error (MSE)**
 
 
 
@@ -84,35 +64,48 @@ The model is intentionally kept \*\*simple and beginner-friendly\*\*, using \*\*
 
 
 
-\## 🖥️ How to Run the Project
+## 📊 Dataset
 
 
 
-\### 1. Clone the repository
+- Source: `yfinance`
+
+- Feature used: **Close price only**
+
+- Date range: User selectable
+
+- Stock symbol: User selectable
+
+
+
+---
+
+
+
+## 🖥️ How to Run the Project
 
 ```bash
+1. Clone the repository
 
 git clone https://github.com/YOUR\_USERNAME/stock-price-prediction.git
-
 cd stock-price-prediction
 
 
 
-\### 2. Create and activate virtual environment (for Windows)
+2. Create and activate virtual environment (for Windows)
 
 python -m venv venv
-
 venv\\Scripts\\activate      
 
 
 
-\### 2. Install Dependencies
+3. Install Dependencies
 
 pip install -r requirements.txt
 
 
 
-\### 3. Run the Streamlit app
+4. Run the Streamlit app
 
 streamlit run app.py
 
@@ -120,7 +113,7 @@ streamlit run app.py
 
 
 
-\### Project Structure
+Project Structure
 
 Stock-Price-Prediction/
 
