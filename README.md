@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+
 # Stock Price Prediction using LSTM
 
 
