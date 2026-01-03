@@ -34,7 +34,7 @@ The model is intentionally kept simple and beginner-friendly, using only the **c
 
 - 📉 Visualizes actual vs predicted prices
 
-- 🖥️ Interactive \*\*Streamlit\*\* web interface
+- 🖥️ Interactive **Streamlit** web interface
 
 - 🧪 Beginner-friendly ML project structure
 
