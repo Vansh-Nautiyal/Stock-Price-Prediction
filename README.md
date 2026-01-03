@@ -26,7 +26,7 @@ The model is intentionally kept simple and beginner-friendly, using only the **c
 
 
 
-- 📊 Fetches real-time historical stock data using \*\*Yahoo Finance\*\*
+- 📊 Fetches real-time historical stock data using **Yahoo Finance**
 
 - 🧠 LSTM-based deep learning model
 
