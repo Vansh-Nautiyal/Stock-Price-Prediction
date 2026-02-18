@@ -3,7 +3,7 @@ import datetime
 from src.main import run_prediction
 
 st.title("Stock Price Predictor")
-st.subheader("This model predics the price of a stock using LSTM model")
+st.subheader("A time-series stock prediction project that analyzes historical market data, engineers technical indicators, and uses an LSTM neural network to forecast future closing prices.")
 
 st.markdown("---")
 options = {
