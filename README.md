@@ -22,21 +22,21 @@ The model is intentionally kept simple and beginner-friendly, using only the **c
 
 
 
-## 🚀  Project Features
+## Project Features
 
 
 
-- 📊 Fetches real-time historical stock data using **Yahoo Finance**
+- Fetches real-time historical stock data using **Yahoo Finance**
 
-- 🧠 LSTM-based deep learning model
+- LSTM-based deep learning model
 
-- 🔁 Recursive multi-day future prediction
+- Recursive multi-day future prediction
 
-- 📉 Visualizes actual vs predicted prices
+- Visualizes actual vs predicted prices
 
-- 🖥️ Interactive **Streamlit** web interface
+- Interactive **Streamlit** web interface
 
-- 🧪 Beginner-friendly ML project structure
+- Beginner-friendly ML project structure
 
 
 
@@ -44,7 +44,7 @@ The model is intentionally kept simple and beginner-friendly, using only the **c
 
 
 
-## 🧠 Model Architecture
+## Model Architecture
 
 
 
@@ -70,7 +70,7 @@ The model is intentionally kept simple and beginner-friendly, using only the **c
 
 
 
-## 📊 Dataset
+## Dataset
 
 
 
@@ -88,7 +88,7 @@ The model is intentionally kept simple and beginner-friendly, using only the **c
 
 
 
-## 🖥️ How to Run the Project
+## How to Run the Project
 
 ```bash
 1. Clone the repository
